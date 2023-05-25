@@ -3,14 +3,13 @@
 namespace App\Modules\Advertisement_Package\src\Actions;
 
 use App\Core\Actions\CoreAction;
-use App\Http\Requests\Params\StoreRequestParams;
+use App\Modules\Advertisement_Package\src\Http\Requests\Params\StoreRequestParams;
 use App\Modules\Advertisement_Package\src\Models\Advertisement;
 
 class StoreAction extends CoreAction
 {
     public function handle(StoreRequestParams $params)
     {
-
        $ad = Advertisement::create([
            "title"=>$params->title,
            "description"=>$params->description,
