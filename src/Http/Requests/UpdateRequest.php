@@ -4,7 +4,7 @@ namespace App\Modules\Advertisement_Package\src\Http\Requests;
 
 
 use App\Core\Http\Requests\CoreFormRequest;
-use App\Http\Requests\Params\UpdateRequestParams;
+use App\Modules\Advertisement_Package\src\Http\Requests\Params\UpdateRequestParams;
 
 
 class UpdateRequest extends CoreFormRequest

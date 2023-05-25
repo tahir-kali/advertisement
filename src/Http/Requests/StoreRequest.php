@@ -2,7 +2,7 @@
 namespace App\Modules\Advertisement_Package\src\Http\Requests;
 
 use App\Core\Http\Requests\CoreFormRequest;
-use App\Http\Requests\Params\StoreRequestParams;
+use App\Modules\Advertisement_Package\src\Http\Requests\Params\StoreRequestParams;
 
 
 class StoreRequest extends CoreFormRequest

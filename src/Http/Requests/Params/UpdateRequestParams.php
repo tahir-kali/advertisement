@@ -1,5 +1,5 @@
 <?php
-namespace App\Http\Requests\Params;
+namespace App\Modules\Advertisement_Package\src\Http\Requests\Params;
 
 use App\Core\Http\Requests\Params\RequestParams;
 
