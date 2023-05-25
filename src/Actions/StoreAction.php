@@ -1,9 +1,10 @@
 <?php
 
-namespace Codeholic\Advertisement\Actions;
+namespace App\Modules\Advertisement_Package\src\Actions;
 
+use App\Core\Actions\CoreAction;
 use App\Http\Requests\Params\StoreRequestParams;
-use Codeholic\Advertisement\Models\Advertisement;
+use App\Modules\Advertisement_Package\src\Models\Advertisement;
 
 class StoreAction extends CoreAction
 {

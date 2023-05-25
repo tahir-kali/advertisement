@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Codeholic\Advertisement\Models;
+namespace App\Modules\Advertisement_Package\src\Models;
 
 
 use Illuminate\Database\Eloquent\Model;

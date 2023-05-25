@@ -1,6 +1,6 @@
 <?php
 
-namespace Codeholic\Advertisement\Http\Requests;
+namespace App\Modules\Advertisement_Package\src\Http\Requests;
 
 
 use App\Core\Http\Requests\CoreFormRequest;
